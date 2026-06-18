@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transaction Slip</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="slip">
+
+  <div class="slip-header">
+    <img src="images/logo.png" class="logo">
+    <img src="images/logo2.jpeg" class="logo">
+    <h2>OLUKITIBI AKINOLA & CO</h2></p>
+  </div>
+    <P>ESTATE SURVEYORS & CONSULTANT</P>
+    <p>Address: No.3 oyebamiji street,bashorun, ibadan.</p>
+    <p>Email: olukitibiakinola@gmail.com</p>
+    <p class="bank">Transaction Receipt</p>
+  
+      
+  <div class="status success">✔ Payment Successful</div>
+
+  <hr>
+
+  <div id="slipData"></div>
+
+  <hr>
+
+  <button onclick="window.print()">Print Slip</button>
+  <button onclick="shareReceiptImage()">Share Slip</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
